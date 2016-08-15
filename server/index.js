@@ -12,6 +12,12 @@ app.use(bodyParser.json({type:'*/*'}));//incoming request hhtp/anyrequest
 
 router(app);
 
+
+render(
+  <div >Hello App</div>,
+  document.getElementById('app')
+)
+
 //a comment
 
 
